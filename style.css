@@ -1,0 +1,246 @@
+
+body{
+background-color: pink;
+padding: 20px;
+}
+
+
+.titilian{
+text-align:center;
+font-size: 22px;
+color:darkred;
+cursor: pointer;
+margin-bottom:45px;
+}
+
+
+.addtask{
+border-radius:50px;
+text-align:center;
+border-radius:20;
+margin-bottom:45px;
+}
+
+
+.next{
+  text-align:center;
+  color:darkred;
+  font-size:15px;
+  cursor:pointer;
+  
+}
+
+
+.all{
+  background-color: #fddde6; 
+  border-radius: 25px;
+  padding: 50px 50px 170px 10px;
+  width: 350px;       
+  margin: 20px 20px 200px 20px;     
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+
+.taskmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0; 
+}
+
+
+.taskmain input {
+  padding: 10px;
+  background-color: #e8cfcf;
+  border: 2px ;
+  border-right: none; /* Connect to button */
+  border-radius: 15px 0 0 15px; /* Round only left side */
+  width: 70%;
+  font-size: 16px;
+}
+
+
+.taskmain button {
+  padding: 10px 20px;
+  background-color: #e8cfcf;
+  color: white;
+  border-left: none; /* Connect to input */
+  border-radius: 0 15px 15px 0; /* Round only right side */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border:none;
+}
+
+
+.taskmain button:hover {
+  background-color: #ff85c1;
+}
+
+
+.first{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0; /* Remove any gap */
+}
+
+
+.first input{
+  padding: 10px;
+  margin-bottom:10px;
+  background-color: #e8cfcf;
+  border: 2px ;
+  border-right: none; /* Connect to button */
+  border-radius: 15px 0 0 15px; 
+  width: 70%;
+  font-size: 16px;
+}
+
+
+.first button{
+  padding: 10px 20px;
+  margin-bottom:10px;
+  background-color: #e8cfcf;
+  color: white;
+  border-left: 
+  border-radius: 0 15px 15px 0; 
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border:none;
+}
+
+
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0; /* Remove any gap */
+}
+
+
+.second input{
+  padding: 10px;
+  margin-bottom:10px;
+  background-color: #e8cfcf;
+  border: 2px ;
+  border-right: none; 0
+  border-radius: 15px 0 0 15px; 
+  width: 70%;
+  font-size: 16px;
+}
+
+
+.second button{
+  padding: 10px 20px;
+  margin-bottom:10px;
+  background-color: #e8cfcf;
+  color: white;
+  border-left: none; 
+  border-radius: 0px 15px 15px 0px; 
+  font-size: 16px;
+  cursor: pointer;
+  border:none;
+}
+
+
+.third{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0; /* Remove any gap */
+}
+
+
+.third input{
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #e8cfcf;
+  border: 2px ;
+  border-right: none; 
+  border-radius: 15px 0 0 15px; 
+  width: 70%;
+  font-size: 16px;
+}
+
+
+.third button{
+  padding: 10px 20px;
+  margin-bottom:10px;
+  background-color: #e8cfcf;
+  color: white;
+  border-left: none; 
+  border-radius: 0 15px 15px 0; 
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border:none;
+}
+
+
+.four{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0; 
+}
+
+
+.four input{
+  padding: 10px;
+  background-color: #e8cfcf;
+  border: 2px ;
+  border-right: none; 
+  border-radius: 15px 0 0 15px; 
+  width: 70%;
+  font-size: 16px;
+}
+
+
+.four button{
+  padding: 10px 20px;
+  background-color:#e8cfcf ;
+  color: white;
+  border-left: none; 
+  border-radius: 0 15px 15px 0;  
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border:none;
+}
+
+
+.myimage {
+  display: block;
+  margin: 0 auto;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width: 992px) {
+  .all {
+    width: 90%; 
+    padding: 20px 10px 80px 10px;
+  }
+
+  .titilian {
+    font-size: 18px;
+  }
+
+  .task-row input, 
+  .task-row button {
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  .task-row {
+    flex-direction: column; 
+    gap: 10px;
+  }
+}
